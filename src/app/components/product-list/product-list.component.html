@@ -1,0 +1,30 @@
+
+
+
+
+
+<table class="table">
+  <thead class="thead-dark">
+  <tr>
+    <th scope="col">Title</th>
+    <th scope="col">Short Description</th>
+    <th scope="col">Cover</th>
+  </tr>
+  </thead>
+  <tbody *ngFor="let items of products ">
+  <tr>
+    <td class="align-middle">{{items.title}}</td>
+    <td  class="align-middle">{{items.shortDescription}}</td>
+    <img src="{{items.thumbnailUrl}}" alt="Book Cover">
+  </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+
